@@ -1,0 +1,154 @@
+.Rapido {
+        width: 113px;
+        height: 48px;
+        /* margin-top:  100px; */
+}
+
+.li-items {
+        display: flex;
+        gap: 40px;
+        font-size: 20px;
+        justify-content: right;
+        list-style-type: none;
+
+
+}
+
+.H {
+        display: flex;
+        justify-content: center;
+
+}
+
+.input1 {
+
+        display: flex;
+        justify-content: center;
+        margin-left: 450px;
+        margin-top: 30px;
+        border-radius: 8px;
+        background: white;
+        color: black;
+        width: 35%;
+        height: 35px;
+        text-align: center;
+        <img aria-label="pickup-img" src="/images/revampIconFrom.svg" class="jsx-2715316807 iconsBookRide">
+}
+
+.input2 {
+        display: flex;
+        justify-content: center;
+        margin-left: 450px;
+        margin-top: 30px;
+        border-radius: 8px;
+        background: white;
+        color: black;
+        width: 35%;
+        height: 35px;
+        text-align: center;
+
+
+
+}
+
+.Button1 {
+        display: flex;
+        justify-content: center;
+        margin-left: 500px;
+        margin-top: 30px;
+        background-color: orange;
+        color: black;
+        width: 450px;
+        height: 35px;
+        border-radius: 10px;
+        font-weight: 700;
+        border: none;
+        padding: 5px;
+
+
+}
+
+.h1 {
+        font-size: 35px;
+        font-weight: 700;
+        text-align: left;
+        margin-left: 150;
+        text-decoration: underline;
+        text-decoration-color: yellow;
+}
+
+.container {
+        display: flex;
+        gap: 40px;
+        font-size: 30px;
+        font-weight: 500;
+        justify-content: left;
+        list-style-type: none;
+
+
+}
+
+.Bike {
+        width: 170px;
+        display: flex;
+        justify-content: first baseline;
+}
+
+.Auto {
+        width: 170px;
+}
+
+.Auto share {
+        width: 170px;
+}
+
+.Parcel {
+        width: 170px;
+}
+
+.container2 {
+        display: flex;
+        gap: 40px;
+        font-size: 30px;
+        font-weight: 500;
+        justify-content: left;
+        list-style-type: none;
+
+
+}
+
+.Cab {
+        display: flex;
+        justify-content: flex-start;
+        gap: 40px;
+        width: 170px;
+}
+
+.Cabp {
+        display: flex;
+        justify-content: flex-start;
+        gap: 40px;
+        width: 170px;
+}
+}
+
+.pick {
+        position: absolute;
+        left: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 25px;
+        margin: auto;
+
+}
+
+.drop {
+        display: flex;
+        justify-content: right;
+        position: absolute;
+        left: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 25px;
+
+}
