@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .butn {
+    display: flex;
+    justify-content: left;
+    background-color: purple;
+    color: beige;
+    width: 200px;
+    height: 50px;
+    margin-left: 180px;
+    border-radius: 10px;
+    padding-left: 43px;
+    padding-top: 15px;
+    font-size: medium;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+
+<body>
+  <div class="container">
+        <div id="root">
+
+      <img class="img" id="imgg"
+        src="https://blogassets.airtel.in/wp-content/uploads/2024/10/tom_and_jerry-whats_that_smell.jpg" width=600px;
+        height=600px;>
+      <button class="butn" onclick="fun()">Change image</button>
+    </div>
+  </div>
+  <script>
+
+    const root = document.getElementById("root");
+    const mg = document.getElementById("imgg");
+
+    function fun() {
+
+      mg.src = "https://i.pinimg.com/736x/b4/de/90/b4de9016559818a7f7267cbc40dfc023.jpg";
+
+
+    }
+
+
+
+  </script>
+</body>
+
+</html>
